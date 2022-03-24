@@ -1,0 +1,108 @@
+* {
+  box-sizing: content-box;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+p{
+  padding: 10px;
+}
+
+body {
+  display: flex;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+table {
+  text-align: center;
+  margin: 0 auto;
+}
+
+thead td {
+  background-color: rgb(175, 175, 175);
+  font-weight: bold;
+  padding: 10px;
+}
+
+td {
+  background-color: rgb(221, 221, 221);
+  width: 80px;
+}
+
+td .color {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+}
+
+.color.red {
+  background-color: red;
+}
+.color.brown {
+  background-color: brown;
+}
+.color.teal {
+  background-color: teal;
+}
+.color.lime {
+  background-color: lime;
+}
+.color.pink {
+  background-color: pink;
+}
+.color.green {
+  background-color: green;
+}
+.color.fuchsia {
+  background-color: fuchsia;
+}
+.color.blue {
+  background-color: blue;
+}
+.color.cyan {
+  background-color: cyan;
+}
+
+.color.red:active,
+.color.red:hover {
+  background-color: rgb(235, 86, 86);
+}
+.color.brown:active,
+.color.brown:hover {
+  background-color: rgb(160, 68, 68);
+}
+.color.teal:active,
+.color.teal:hover {
+  background-color: rgb(45, 139, 139);
+}
+.color.lime:active,
+.color.lime:hover {
+  background-color: rgb(84, 214, 84);
+}
+.color.pink:active,
+.color.pink:hover {
+  background-color: rgb(199, 133, 144);
+}
+.color.green:active,
+.color.green:hover {
+  background-color: rgb(32, 139, 32);
+}
+.color.fuchsia:active,
+.color.fuchsia:hover {
+  background-color: rgb(185, 67, 185);
+}
+.color.blue:active,
+.color.blue:hover {
+  background-color: rgb(72, 72, 240);
+}
+.color.cyan:active,
+.color.cyan:hover {
+  background-color: rgb(39, 228, 228);
+}
